@@ -4,10 +4,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'About Us', href: '#' },
+  { name: 'Services', href: '#' },
+  { name: 'Portfolio', href: '#' },
+  { name: 'Team', href: '#' },
+  { name: 'Contact', href: '#' },
 ]
 
 export default function Example() {
@@ -20,7 +21,7 @@ export default function Example() {
               <div className="flex items-center justify-between w-full">
                 <a href="#">
                   <span className="sr-only">Workflow</span>
-                  <img className="w-auto h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="" />
+                  <img className="w-auto h-10" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=110,fit=crop,q=95/YZ9M8gr3O0hEKRLJ/untitled-design-4-mP4ZOB4KwZu47aok.png" alt="" />
                 </a>
                 <div className="-mr-2 flex items-center">
                   <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
@@ -44,7 +45,7 @@ export default function Example() {
               <a
                 href="#"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">
-                Start free trial
+                Get in Touch
               </a>
             </div>
           </nav>
@@ -62,7 +63,7 @@ export default function Example() {
             <div className="rounded-3xl shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
+                  <img className="h-8 w-auto" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=110,fit=crop,q=95/YZ9M8gr3O0hEKRLJ/untitled-design-4-mP4ZOB4KwZu47aok.png" alt="" />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">
@@ -81,17 +82,17 @@ export default function Example() {
                 </div>
                 <div className="mt-6 px-5">
                   <a href="#" className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700">
-                    Start free trial
+                    Get in Touch
                   </a>
                 </div>
-                <div className="mt-6 px-5">
+                {/* <div className="mt-6 px-5">
                   <p className="text-center text-base font-medium text-gray-500">
                     Existing customer?{' '}
                     <a href="#" className="text-gray-900 hover:underline">
                       Login
                     </a>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </Popover.Panel>
@@ -104,16 +105,16 @@ export default function Example() {
             <div className="">
               <div className="mx-auto max-w-md px-4 max-w-2xl px-6 text-center">
                 <div className="">
-                  <a href="#" className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 text-base hover:text-gray-200">
+                  {/* <a href="#" className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 text-base hover:text-gray-200">
                     <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full">
                       We're hiring
                     </span>
                     <span className="ml-4 text-sm">Visit our careers page</span>
                     <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
-                  </a>
+                  </a> */}
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white mt-5 text-6xl">
-                    <span className="block">A better way to</span>
-                    <span className="block text-indigo-400">ship web apps</span>
+                    <span className="block">Looking for Solution?</span>
+                    <span className="block text-indigo-400">we turn your bussiness Online</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 mt-5 text-xl">
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.

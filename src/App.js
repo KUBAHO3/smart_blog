@@ -95,10 +95,10 @@ function Scene({ portal, ...props }) {
   return (
     <group {...props} dispose={null}>
       <Float object={nodes['Bg-stuff']} />
-      <Float object={nodes['Emoji-4']} />
+      {/* <Float object={nodes['Emoji-4']} />
       <Float object={nodes['Emoji-2']} />
       <Float object={nodes['Emoji-3']} />
-      <Float object={nodes['Emoji-1']} />
+      <Float object={nodes['Emoji-1']} /> */}
       <Float object={nodes['Icon-text-2']} />
       <Float object={nodes['Icon-like']} />
       <Float object={nodes['Icon-star']} />
